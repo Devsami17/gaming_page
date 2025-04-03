@@ -10,386 +10,425 @@
 </head>
 <body>
 
-<div class="container mt-5 mb-5">
-    <div class="row justify-content-center gy-2">
-        <!-- 3x3 Grid Layout -->
-        <div class="col-lg-4 col-md-4 phone-box-parent">
-            <img src="images/bangkok-thailand-october-23-2021-iphone-13-pro-max-mock-up-grey-color-iphone-is-product-apple-inc_34944-168-removebg-preview.png" alt="not" class="phone-img">
-            <img src="images/avatar.png" alt="not" class="iphone-avater">
-        <div class="rank-box">
-            <span>RANK: 332</span>
-        </div>
-        <div class="bottm_phone">
-            <div class="stars-box">
-                <img src="images/yellow-bar.png" alt="r" class="yellow-bar">
-                <img src="images/hexa-icon.png" alt="r" class="hexa-ico">
-
+    <div class="container mt-5 mb-5" id="main-container">
+        <div class="row justify-content-center gy-2" id="main-row">
+            <!-- 3x3 Grid Layout -->
+            <div class="col-lg-4 col-md-4 phone-box-parent" id="phone-box-parent">
+                <img src="images/bangkok-thailand-october-23-2021-iphone-13-pro-max-mock-up-grey-color-iphone-is-product-apple-inc_34944-168-removebg-preview.png" alt="not" class="phone-img" id="phone-image">
+                <img src="images/avatar.png" alt="not" class="iphone-avater" id="phone-avatar">
+            <div class="rank-box" id="phone-rank-box">
+                <span id="phone-rank-text">RANK: 332</span>
             </div>
-            <div class="customize-box">
-                <span>customize</span>
+            <div class="bottm_phone" id="phone-bottom-section">
+                <div class="stars-box" id="stars-box">
+                    <img src="images/yellow-bar.png" alt="r" class="yellow-bar" id="yellow-bar-icon">
+                    <img src="images/hexa-icon.png" alt="r" class="hexa-ico" id="hexa-icon">
+    
+                </div>
+                <div class="customize-box" id="customize-box">
+                    <span id="customize-text">customize</span>
+                </div>
             </div>
-        </div>
-        </div>
-        
-
-        <div class="col-lg-4 col-md-6 ">
-            <div class="progress-main-card">
-                <div class="card-custom">
-                    <h6>PROGRESS</h6>
-                    <div class="progress-container mb-3">
-                        <div class="progress-bar-custom">
-                            <span class="progress-text">QUEST 1</span>
+            </div>
+            
+    
+            <div class="col-lg-4 col-md-6" id="progress-card-col">
+                <div class="progress-main-card" id="progress-main-card">
+                    <div class="card-custom" id="progress-card">
+                        <h6 id="progress-title">PROGRESS</h6>
+                        <div class="progress-container mb-3" id="progress-container-1">
+                            <div class="progress-bar-custom" id="progress-bar-1">
+                                <span class="progress-text" id="progress-text-1">QUEST 1</span>
+                            </div>
+                            <span class="progress-percent" id="progress-percent-1">69%</span>
                         </div>
-                        <span class="progress-percent">69%</span>
+                
+                        <p class="mb-1" id="username">@XXXX</p>
+                        <p class="mb-1" id="full-name">FIRST LAST NAME</p>
+                        <p class="mb-1" id="gamer-id"><strong>{gamer id}</strong></p>
+                
+                        <p class="points" id="points-display">1342 <span style="font-size: 18px;font-weight: 600;" id="points-label">points</span></p>
+                <div class="d-flex justify-content-between" id="penalty-season-row">
+                  
+                    <h6 style="color: rgb(217, 255, 112);" id="penalty-cards-title">penalty card(s)</h6>
+                    <p id="season-display">SEASON: 2024/2025</p>
+                </div>
+                       
+                
+                        <div class="penalty-container" id="penalty-container">
+                            <div class="penalty-card" id="yellow-card-section">
+                                <span class="penalty-label" id="yellow-label">yellow</span>
+                                <div class="card-box-container" id="yellow-card-container">
+                                   
+                                    <div class="card-box penalty-img" id="yellow-card-icon"><img src="images/yellow-bar.png" alt=""></div>
+                                    <span class="penalty-number" id="yellow-card-count">2</span>
+                                </div>
+                            </div>
+                            <div class="penalty-card" id="orange-card-section">
+                                <span class="penalty-label" id="orange-label">orange</span>
+                                <div class="card-box-container" id="orange-card-container">
+                                    
+                                    <div class="card-box penalty-img" id="orange-card-icon"><img src="images/orange-bar.png" alt=""></div>
+                                    <span class="penalty-number" id="orange-card-count">4</span>
+                                </div>
+                            </div>
+                            <div class="penalty-card" id="red-card-section">
+                                <span class="penalty-label" id="red-label">red</span>
+                                <div class="card-box-container" id="red-card-container">
+                                 
+                                    <div class="card-box penalty-img" id="red-card-icon"><img src="images/red-bar.png" alt=""></div>
+                                    <span class="penalty-number" id="red-card-count">0</span>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-            
-                    <p class="mb-1">@XXXX</p>
-                    <p class="mb-1">FIRST LAST NAME</p>
-                    <p class="mb-1"><strong>{gamer id}</strong></p>
-            
-                    <p class="points">1342 <span style="font-size: 18px;font-weight: 600;">points</span></p>
-            <div class="d-flex justify-content-between">
-              
-                <h6 style="color: rgb(217, 255, 112);">penalty card(s)</h6>
-                <p>SEASON: 2024/2025</p>
+                </div>
             </div>
+    
+            <div class="col-lg-4 col-md-5" id="stats-card-col">
+                <div class="stats-card" id="stats-card">
+                    <img src="images/avatar-2.png" class="profile-img" alt="Profile" id="stats-profile-img">
+                    <img src="images/hexa-icon.png" alt="" class="hexa-icon-stats" id="stats-hexa-icon">
+                    <img src="images/yellow-bar.png" alt="" class="yellow-icon-stats" id="stats-yellow-icon">
+    
+                    <div class="assigned-container" id="assigned-subjects"> 
+                        <div id="assigned-subjects-title">ASSIGNED SUBJECT(S):</div>
+                        <div class="text-white" id="subject-1">3RD GRADE SCIENCE</div>
+                        <div class="text-white" id="subject-2">4TH GRADE MATH</div>
+                    </div>
+                  
+                
+                    <div class="progress-row" id="quests-row">
+                        <div>
+                            <div class="quests-text" id="quests-title">QUESTS</div>
+                            <div class="exams-text " id="online_exams-title">online exams</div>
+
+                            <p class="mb-0" id="quests-count">2/10</p>
+                        </div>
+                        <div class="circular-progress">
+                            <svg width="60" height="60">
+                                <circle class="bg" cx="30" cy="30" r="25"></circle>
+                                <circle class="progress" cx="30" cy="30" r="25"></circle>
+                            </svg>
+                            <span id="circle-value">20%</span>
+                        </div>
+                    </div>
+                
+                    <div class="progress-row" id="game-questions-row">
+                        <div>
+                            <div class="game-text" id="game-questions-title">GAME ?'S</div>
+                            <p  class="mb-2" id="game-questions-count">2/10</p>
+                        </div>
+                        <div class="semi-circle">
+                            <svg viewBox="0 0 100 50">
+                                <path class="bg" d="M10,50 A40,40 0 0,1 90,50"></path>
+                                <path class="progress" d="M10,50 A40,40 0 0,1 90,50"></path>
+                            </svg>
+                            <span id="semi-circle-value">67%</span>
+                        </div>
+                    </div>
+                
+                    <div class="badges-container" id="badges-container">
+                        <div id="badges-section">
+                            <div class="badge-img" id="badges-icon"><img src="images/badges.png" alt=""></div>
+                            <p class="value" id="badges-count">2/10</p>
+                            <p class="name" id="badges-label">badges</p>
+                        </div>
+                        <div id="certs-section">
+                            <div class="badge-img" id="certs-icon"><img src="images/cams.png" alt=""></div>
+                            <p class="value" id="certs-count">2/10</p>
+                            <p class="name" id="certs-label">certs</p>
+                        </div>
+                        <div id="cams-section">
+                            <div class="badge-img" id="cams-icon"><img src="images/certs.png" alt=""></div>
+                            <p class="value" id="cams-count">2/10</p>
+                            <p class="name" id="cams-label">cams</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-2 col-md-5" id="org-card-col">
+                <div class="org-card" id="org-card">
+                    <div class="org-header" id="org-title">ORGANIZATION</div>
+                    <p class="org-details" id="org-type">TYPE: SCHOOL</p>
+                
+                    <img src="images/school-icon.png" class="school-img" alt="School" id="org-icon">
+                
+                    <p class="mb-0" id="org-name"><strong>James Elementary</strong></p>
+                    <p  class="mb-0" id="org-location"><strong>McLean, VA</strong></p>
+                    <p  class="mb-0" id="org-classroom"><strong>CLASSROOM: BETH32</strong></p>
+                    <p  class="mb-0" id="org-admin"><strong>ADMIN: MR. WALKER</strong></p>
+                
+                    <div class="steam-iq-container" id="steam-iq-container">
+                        <p id="steam-iq-title"><strong>{gamer id} STEAM IQ</strong></p>
+                        <div class="d-flex justify-content-center gap-2 align-items-center" id="steam-iq-value-container">
+                            <img class="greater-than" src="images/greater-than-icon.png" alt="" id="steam-iq-icon">
+                            <span class="percent-value" id="steam-iq-value">89%</span>
+                            <img class="up-arrow" src="images/up-down-arrow-icon.png" alt="" id="steam-iq-arrow">
+                        </div>
+                    </div>
+                
+                    <div class="iq-stats" id="iq-stats">
+                        <div class="iq-box" id="school-iq-box">
+                            <p id="school-iq-label">(school) Avg. STEAM &nbsp;IQ</p>
+                            <span class="iq-value yellow-text" id="school-iq-value">69%</span>
+                        </div>
+                        <div class="iq-box" id="class-iq-box">
+                            <p id="class-iq-label">(class) Avg. STEAM IQ</p>
+                            <span class="iq-value red-text" id="class-iq-value">62%</span>
+                        </div>
+                        <div class="iq-box" id="team-iq-box">
+                            <p id="team-iq-label">(team) Avg. STEAM IQ</p>
+                            <span class="iq-value green-text" id="team-iq-value">79%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-2 col-md-4" id="learning-style-col">
+                <div class="org-card" id="learning-style-card">
+                    <div class="org-header" id="learning-style-title">LEARNING STYLE</div>
                    
-            
-                    <div class="penalty-container">
-                        <div class="penalty-card">
-                            <span class="penalty-label">yellow</span>
-                            <div class="card-box-container">
-                               
-                                <div class="card-box penalty-img"><img src="images/yellow-bar.png" alt=""></div>
-                                <span class="penalty-number">2</span>
-                            </div>
+                
+                    <img src="images/chart-1.png" class="chart-img" alt="School" id="learning-style-chart">
+                    <div class="org-header mt-4" id="steam-cams-title">STEAM CAMS<br> COMPLETED</div>
+                   <h6 class="value_org" id="steam-cams-count">15</h6>
+                
+                 
+                
+                
+                </div>
+            </div>
+    
+         
+    
+            <div class="col-lg-4 col-md-12" id="team-card-col">
+                <div class="team-card" id="team-card">
+                    <div class="team-header" id="team-header">
+                        <div class="team-logo" id="team-logo-section">
+                            <img src="images/icon-shark.png" alt="Fish Logo" id="team-logo-img">
+                            <div class="team-name" id="team-name">TEAM: SHARKS</div>
                         </div>
-                        <div class="penalty-card">
-                            <span class="penalty-label">orange</span>
-                            <div class="card-box-container">
-                                
-                                <div class="card-box penalty-img"><img src="images/orange-bar.png" alt=""></div>
-                                <span class="penalty-number">4</span>
-                            </div>
-                        </div>
-                        <div class="penalty-card">
-                            <span class="penalty-label">red</span>
-                            <div class="card-box-container">
-                             
-                                <div class="card-box penalty-img"><img src="images/red-bar.png" alt=""></div>
-                                <span class="penalty-number">0</span>
-                            </div>
+                        <div>
+    <p class="total-team-points" id="total-team-points-label">Total Team Points</p>
+                            <div class="team-points" id="total-team-points">8342</div>
+    
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-5">
-            <div class="stats-card">
-                <img src="images/avatar-2.png" class="profile-img" alt="Profile">
-                <img src="images/hexa-icon.png" alt="" class="hexa-icon-stats">
-                <img src="images/yellow-bar.png" alt="" class="yellow-icon-stats">
-
-                <div class="assigned-container"> 
-                    <div>ASSIGNED SUBJECT(S):</div>
-                    <div class="text-white">3RD GRADE SCIENCE</div>
-                    <div class="text-white">4TH GRADE MATH</div>
-                </div>
-              
-            
-                <div class="progress-row">
-                    <div>
-                        <div class="quests-text">QUESTS</div>
-                        <p class="mb-0">2/10</p>
-                    </div>
-                    <div class="circular-progress">
-                        <img src="images/chart-2.png" alt="nt">
-                    </div>
-                </div>
-            
-                <div class="progress-row">
-                    <div>
-                        <div class="game-text">GAME ?’S</div>
-                        <p  class="mb-2">2/10</p>
-                    </div>
-                    <div class="circular-progress game-progress">
-                        <img src="images/chart-3.png" alt="nt">
-                    </div>
-                </div>
-            
-                <div class="badges-container">
-                    <div>
-                        <div class="badge-img"><img src="images/badges.png" alt=""></div>
-                        <p class="value">2/10</p>
-                        <p class="name">badges</p>
-                    </div>
-                    <div>
-                        <div class="badge-img"><img src="images/cams.png" alt=""></div>
-                        <p class="value">2/10</p>
-                        <p class="name">certs</p>
-                    </div>
-                    <div>
-                        <div class="badge-img"><img src="images/certs.png" alt=""></div>
-                        <p class="value">2/10</p>
-                        <p class="name">cams</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-5">
-            <div class="org-card">
-                <div class="org-header">ORGANIZATION</div>
-                <p class="org-details">TYPE: SCHOOL</p>
-            
-                <img src="images/school-icon.png" class="school-img" alt="School">
-            
-                <p class="mb-0"><strong>James Elementary</strong></p>
-                <p  class="mb-0"><strong>McLean, VA</strong></p>
-                <p  class="mb-0"><strong>CLASSROOM: BETH32</strong></p>
-                <p  class="mb-0"><strong>ADMIN: MR. WALKER</strong></p>
-            
-                <div class="steam-iq-container">
-                    <p><strong>{gamer id} STEAM IQ</strong></p>
-                    <div class="d-flex justify-content-center gap-4 align-items-center">
-                        <img class="greater-than" src="images/greater-than-icon.png" alt="">
-                        <span class="percent-value">89%</span>
-                        <img class="up-arrow" src="images/up-down-arrow-icon.png" alt="">
-                    </div>
-                </div>
-            
-                <div class="iq-stats">
-                    <div class="iq-box">
-                        <p>(school) Avg. STEAM IQ</p>
-                        <span class="iq-value yellow-text">69%</span>
-                    </div>
-                    <div class="iq-box">
-                        <p>(class) Avg. STEAM IQ</p>
-                        <span class="iq-value red-text">62%</span>
-                    </div>
-                    <div class="iq-box">
-                        <p>(team) Avg. STEAM IQ</p>
-                        <span class="iq-value green-text">79%</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-4" >
-            <div class="org-card">
-                <div class="org-header">LEARNING STYLE</div>
-               
-            
-                <img src="images/chart-1.png" class="chart-img" alt="School">
-                <div class="org-header mt-4">STEAM CAMS<br> COMPLETED</div>
-               <h6 class="value_org">15</h6>
-            
-             
-            
-            
-            </div>
-        </div>
-
-        <div class="col-lg-6 col-md-8">
-            <div class="games-card">
-                <div class="d-flex justify-content-between align-items-center">
-                    <div>
-                        <div class="games-header">GAMES</div>
-                        <p class="last-played">LAST PLAYED<br>8/19/24 17:33 EST.</p>
+                
+                    <div class="rank-badge" id="team-rank-badge">
+                        <img src="images/rank-number.png" alt="Rank 3 Badge" id="team-rank-img">
                     </div>
                     
-                    <div class="main-game">
-                        <img src="images/logo-6.png" alt="Aquaball Clash" class="aqua-ball_img">
-                        <div class="yellow-card">{gamer id} yellow card<br>{previous session}<br>{cam} or {game}</div>
+                    <h4 class="mt-2 fw-bold" id="team-members-title">Team Members</h4>
+                
+                    <div class="team-members" id="team-members-container">
+                        <div class="member" id="team-member-1">
+                            <span class="rank-tag rank-purple" id="member-1-rank">RANK: 3</span>
+                            <img src="images/person-1.png" alt="Player 1" id="member-1-img">
+                            <div class="member-info" id="member-1-info">
+                                GAMER ID: <span id="member-1-id">beno</span><br>
+                                BADGES: <span id="member-1-badges">17</span><br>
+                                TOTAL POINTS: <span id="member-1-points">828</span>
+                            </div>
+                        </div>
+                        <div class="member" id="team-member-2">
+                            <span class="rank-tag rank-red" id="member-2-rank">RANK: 32</span>
+                            <img src="images/person-2.png" alt="Player 2" id="member-2-img">
+                            <div class="member-info" id="member-2-info">
+                                GAMER ID: <span id="member-2-id">beno</span><br>
+                                BADGES: <span id="member-2-badges">17</span><br>
+                                TOTAL POINTS: <span id="member-2-points">828</span>
+                            </div>
+                        </div>
+                        <div class="member" id="team-member-3">
+                            <span class="rank-tag rank-blue" id="member-3-rank">RANK: 2</span>
+                            <img src="images/person-3.png" alt="Player 3" id="member-3-img">
+                            <div class="member-info" id="member-3-info">
+                                GAMER ID: <span id="member-3-id">beno</span><br>
+                                BADGES: <span id="member-3-badges">17</span><br>
+                                TOTAL POINTS: <span id="member-3-points">828</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
-               
-            
-              
-            
-          <div class="responsive-table">
-            <table>
-                <tr>
-                    <td></td>
-                    <td><img class="table_logo" src="images/logo-4.png" alt="Game 1"></td>
-                    <td><img class="table_logo" src="images/logo-5.png" alt="Game 1"></td>
-                    <td><img class="table_logo" src="images/logo-6.png" alt="Game 1"></td>
-                    <td><img class="table_logo" src="images/logo-2.png" alt="Game 1"></td>
-                    <td><img class="table_logo" src="images/logo-1.png" alt="Game 1"></td>
-
-                </tr>
-                <tr>
-                    <th>points</th>
-                    <td>879</td>
-                    <td>879</td>
-                    <td>879</td>
-                    <td>879</td>
-                    <td>879</td>
-                </tr>
-                <tr>
-                    <th>?'s presented</th>
-                    <td>121</td>
-                    <td>121</td>
-                    <td>121</td>
-                    <td>121</td>
-                    <td>121</td>
-                </tr>
-                
-                <tr>
-                    <th>?'s correct</th>
-                    <td>78</td>
-                    <td>78</td>
-                    <td>78</td>
-                    <td>78</td>
-                    <td>78</td>
-                </tr>
-                
-                <tr>
-                    <th>hours of play</th>
-                    <td>85</td>
-                    <td>85</td>
-                    <td>85</td>
-                    <td>85</td>
-                    <td>85</td>
-                </tr>
-               
-              
-            </table>
-          </div>
-               
-            
-                
-            
-                <div class="events-sessions">
-                   <div>
-                    <p class="session-info">NEXT SESSION:<br>THURS., 9/7/24<br>@4:00 PM</p>
-                   </div>
-                    <div class="events_2">
-                       <div>
-                        <div class="event-box">EVENTS</div>
-                        <p class="event-count">3</p>
+            </div>
+    
+            <div class="col-lg-2 col-md-6" id="leaderboard-col">
+                <div class="leaderboard-card" id="leaderboard-card">
+                   <h4 class="leaderboard-title">TEAM</h4>
+                    
+                    <div class="rank-section" id="school-rank-section">
+                        <img src="images/red-down-arrow.png" class="rank-image" alt="Down Arrow" id="school-rank-arrow">
+                        <div class="rank-text" id="school-rank-text">
+                            <h5 class="title_rank" id="school-rank-title">Class<br> Ranking</h5>
+                            <!-- <p class="rank_text" id="school-rank-label">RANK</p> -->
+                            <span class="rank-number" id="school-rank-number">1ST</span>
+                        </div>
                     </div>
-                    <div>
-                        <div class="session-box">SESSIONS</div>
-                        <p class="session-count">22</p>
-                    </div>  
+                
+                    <div class="rank-section" id="class-rank-section">
+                        <img src="images/up-down-arrow-icon.png" class="rank-image" alt="Up Arrow" id="class-rank-arrow">
+                        <div class="rank-text" id="class-rank-text">
+                            <h5 class="title_rank" id="class-rank-title">School<br>Ranking</h5>
+                            <!-- <p class="rank_text" id="class-rank-label">RANK</p> -->
+                            <span class="rank-number" id="class-rank-number">3RD</span>
+                        </div>
+                    </div>
+                    <div class="rank-section" id="league-rank-section">
+                      
+                        <div class="rank-text" id="league-rank-text">
+                            <h5 class="title_rank" id="league-rank-title">League<br>Ranking</h5>
+                            <!-- <p class="rank_text" id="class-rank-label">RANK</p> -->
+                            <span class="rank-number" id="league-rank-number">89TH</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="col-lg-2 col-md-6" id="playground-games-col">
+                <div class="game-card" id="playground-game-card">
+                    <div class="title" id="playground-games-title">PLAYGROUND<br> GAMES</div>
+                    
+                    <div class="score-section" id="playground-stats-section">
+                        <div><span class="title" id="games-played-title">PLAYED</span> <br> <span id="games-played-count">6</span></div>
+                        <div><span class="title" id="games-points-title">POINTS</span> <br> <span id="games-points-count">854</span></div>
+                    </div>
+                
+                    <div class="next-match" id="next-match-title">NEXT MATCH</div>
+                
+                    <div class="match-teams" id="match-teams-section">
+                        <img src="images/team-logo.png" class="team-logo" alt="Team 1" id="team-1-logo">
+                        <div class="vs" id="vs-container"><img src="images/versus-icon.png" alt="" id="vs-icon"></div>
+                        <div id="team-2-section">
+                            <img src="images/icon-shark-2.png" class="team-logo" alt="Team 2" id="team-2-logo">
+                            <img src="images/rank-black-number.png" class="rank-logo" alt="Rank Icon" id="team-2-rank">
+                        </div>
+                    </div>
+                
+                    <div class="match-score" id="match-score-section">
+                        <div class="score-box" id="team-1-score">2-9</div>
+                        <div class="score-box" id="team-2-score">9-2</div>
+                    </div>
+                
+                    <div class="match-time" id="match-time">
+                        MONDAY - 3:30 PM EST. <br>
+                        OCT. 28TH, 2024
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-12 col-md-12" id="games-card-col">
+                <div class="games-card" id="games-card">
+                    <div class="d-flex justify-content-between align-items-center" id="games-header-section">
+                        <div>
+                            <div class="games-header" id="games-title">GAMES</div>
+                            <p class="last-played" id="last-played">LAST PLAYED<br>8/19/24 17:33 EST.</p>
+                        </div>
+                        
+                        <div class="main-game" id="main-game-section">
+                            <img src="images/logo-6.png" alt="Aquaball Clash" class="aqua-ball_img" id="main-game-logo">
+                            <img src="images/yellow-bar.png" alt="not">
+                            <div class="yellow-card" id="yellow-card-notice">{gamer id} yellow card<br>{previous session}<br>{cam} or {game}</div>
+                        </div>
                     </div>
                    
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-5 col-md-12">
-            <div class="team-card">
-                <div class="team-header">
-                    <div class="team-logo">
-                        <img src="images/icon-shark.png" alt="Fish Logo">
-                        <div class="team-name">TEAM: SHARKS</div>
-                    </div>
-                    <div>
-<p class="total-team-points">Total Team Points</p>
-                        <div class="team-points">8342</div>
-
-                    </div>
-                </div>
-            
-                <div class="rank-badge">
-                    <img src="images/rank-number.png" alt="Rank 3 Badge">
-                </div>
                 
-                <h4 class="mt-2 fw-bold">Team Members</h4>
-            
-                <div class="team-members">
-                    <div class="member">
-                        <span class="rank-tag rank-purple">RANK: 3</span>
-                        <img src="images/person-1.png" alt="Player 1">
-                        <div class="member-info">
-                            GAMER ID: beno<br>
-                            BADGES: 17<br>
-                            TOTAL POINTS: 828
-                        </div>
-                    </div>
-                    <div class="member">
-                        <span class="rank-tag rank-red">RANK: 32</span>
-                        <img src="images/person-2.png" alt="Player 2">
-                        <div class="member-info">
-                            GAMER ID: beno<br>
-                            BADGES: 17<br>
-                            TOTAL POINTS: 828
-                        </div>
-                    </div>
-                    <div class="member">
-                        <span class="rank-tag rank-blue">RANK: 2</span>
-                        <img src="images/person-3.png" alt="Player 3">
-                        <div class="member-info">
-                            GAMER ID: beno<br>
-                            BADGES: 17<br>
-                            TOTAL POINTS: 828
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-3 col-md-6">
-            <div class="leaderboard-card">
-                <img src="images/leaderboard-icon.png" alt="Trophy Icon">
+                  
                 
-                <div class="rank-section">
-                    <img src="images/red-down-arrow.png" class="rank-image" alt="Down Arrow">
-                    <div class="rank-text">
-                        <h5 class="title_rank">School<br> LEADERBOARD</h5>
-                        <p class="rank_text">RANK</p>
-                        <span class="rank-number">3RD</span>
-                    </div>
-                </div>
-            
-                <div class="rank-section">
-                    <img src="images/up-down-arrow-icon.png" class="rank-image" alt="Up Arrow">
-                    <div class="rank-text">
-                        <h5 class="title_rank">Class<br> LEADERBOARD</h5>
-                        <p class="rank_text">RANK</p>
-                        <span class="rank-number">1ST</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-            <div class="game-card">
-                <div class="title">PLAYGROUND<br> GAMES</div>
+              <div class="responsive-table" id="games-table">
+                <table id="games-stats-table">
+                    <tr id="games-logos-row">
+                        <td></td>
+                        <td><img class="table_logo" src="images/logo-4.png" alt="Game 1" id="game-logo-1"></td>
+                        <td><img class="table_logo" src="images/logo-5.png" alt="Game 1" id="game-logo-2"></td>
+                        <td><img class="table_logo" src="images/logo-6.png" alt="Game 1" id="game-logo-3"></td>
+                        <td><img class="table_logo" src="images/logo-2.png" alt="Game 1" id="game-logo-4"></td>
+                        <td><img class="table_logo" src="images/logo-1.png" alt="Game 1" id="game-logo-5"></td>
+    
+                    </tr>
+                    <tr id="points-row">
+                        <th id="points-header">points</th>
+                        <td id="game-1-points">879</td>
+                        <td id="game-2-points">879</td>
+                        <td id="game-3-points">879</td>
+                        <td id="game-4-points">879</td>
+                        <td id="game-5-points">879</td>
+                    </tr>
+                    <tr id="questions-presented-row">
+                        <th id="questions-presented-header">?'s presented</th>
+                        <td id="game-1-questions-presented">121</td>
+                        <td id="game-2-questions-presented">121</td>
+                        <td id="game-3-questions-presented">121</td>
+                        <td id="game-4-questions-presented">121</td>
+                        <td id="game-5-questions-presented">121</td>
+                    </tr>
+                    
+                    <tr id="questions-correct-row">
+                        <th id="questions-correct-header">?'s correct</th>
+                        <td id="game-1-questions-correct">78</td>
+                        <td id="game-2-questions-correct">78</td>
+                        <td id="game-3-questions-correct">78</td>
+                        <td id="game-4-questions-correct">78</td>
+                        <td id="game-5-questions-correct">78</td>
+                    </tr>
+                    
+                    <tr id="hours-played-row">
+                        <th id="hours-played-header">hours of play</th>
+                        <td id="game-1-hours-played">85</td>
+                        <td id="game-2-hours-played">85</td>
+                        <td id="game-3-hours-played">85</td>
+                        <td id="game-4-hours-played">85</td>
+                        <td id="game-5-hours-played">85</td>
+                    </tr>
+                   
+                  
+                </table>
+              </div>
+                   
                 
-                <div class="score-section">
-                    <div><span class="title">PLAYED</span> <br> <span>6</span></div>
-                    <div><span class="title">POINTS</span> <br> <span>854</span></div>
-                </div>
-            
-                <div class="next-match">NEXT MATCH</div>
-            
-                <div class="match-teams">
-                    <img src="images/team-logo.png" class="team-logo" alt="Team 1">
-                    <div class="vs"><img src="images/versus-icon.png" alt=""></div>
-                    <div>
-                        <img src="images/icon-shark-2.png" class="team-logo" alt="Team 2">
-                        <img src="images/rank-black-number.png" class="rank-logo" alt="Rank Icon">
-                    </div>
-                </div>
-            
-                <div class="match-score">
-                    <div class="score-box">2-9</div>
-                    <div class="score-box">9-2</div>
-                </div>
-            
-                <div class="match-time">
-                    MONDAY - 3:30 PM EST. <br>
-                    OCT. 28TH, 2024
+                    
+                
+                    <!-- <div class="events-sessions" id="events-sessions-section">
+                       <div>
+                        <p class="session-info" id="next-session">NEXT SESSION:<br>THURS., 9/7/24<br>@4:00 PM</p>
+                       </div>
+                        <div class="events_2" id="events-sessions-counts">
+                           <div>
+                            <div class="event-box" id="events-title">EVENTS</div>
+                            <p class="event-count" id="events-count">3</p>
+                        </div>
+                        <div>
+                            <div class="session-box" id="sessions-title">SESSIONS</div>
+                            <p class="session-count" id="sessions-count">22</p>
+                        </div>  
+                        </div>
+                       
+                    </div> -->
                 </div>
             </div>
         </div>
     </div>
-</div>
+<script>
+  
+    function setProgress(value, total, circle, textElement, isSemiCircle = false) {
+        let percentage = (value / total) * 100;
+        let dashOffset;
+        if (isSemiCircle) {
+            dashOffset = 157 - (157 * percentage) / 100;
+        } else {
+            dashOffset = 125.6 - (125.6 * percentage) / 100; 
+        }
+        circle.style.strokeDashoffset = dashOffset;
+        textElement.textContent = Math.round(percentage) + "%";
+    }
 
+
+    setProgress(2, 10, document.querySelector(".circular-progress .progress"), document.getElementById("circle-value"));
+setProgress(2, 3, document.querySelector(".semi-circle .progress"), document.getElementById("semi-circle-value"), true);
+
+
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

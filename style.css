@@ -329,6 +329,15 @@ body {
     border-radius: 5px;
     text-align: center;
 }
+.exams-text{
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 3px 8px;
+    /* border-radius: 5px; */
+    text-align: center;
+}
 .progress-row p{
     color: #000;
     font-weight: 900;
@@ -434,7 +443,7 @@ height: 100%;
     margin-bottom: 0px;
 }
 .iq-value {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 900;
 }
 .iq-value.green-text{
@@ -451,7 +460,7 @@ height: 100%;
 .red-bg { background-color: red; color: white; }
 .green-bg { background-color: green; color: white; }
 .greater-than , .up-arrow{
-    height: 50px;
+    height: 30px;
     width: auto;
 }
 .steam-iq-container .percent-value{
@@ -476,10 +485,10 @@ height: 100%;
 .games-card {
     width: 100%;
     background-color: white;
-    padding: 10px;
+    padding: 20px;
 
     border: 5px solid black;
-    max-height: 428px;
+    /* max-height: 428px; */
  
    
 }
@@ -505,7 +514,7 @@ height: 100%;
     /* margin-top: 10px; */
 }
 .main-game img {
-    height: 50px;
+    height: 80px;
     width: auto;
 }
 .yellow-card {
@@ -524,6 +533,7 @@ table {
 }
 table th{
     font-weight: 600;
+    font-size: 18px;
 
 }
 table td{
@@ -568,6 +578,7 @@ th, td {
 }
 .table_logo{
     width: auto;
+    margin-bottom: 8px;
     height: 50px;
 }
 .events_2{
@@ -576,9 +587,10 @@ th, td {
 }
 
 .team-card {
+    min-height: 428px;
     width: 100%;
     background-color: white;
-    padding: 15px;
+    padding: 10px;
     /* border-radius: 10px; */
     border: 5px solid black;
     /* box-shadow: 0 0 10px black; */
@@ -590,7 +602,7 @@ th, td {
     align-items: center;
     justify-content: space-between;
     border-bottom: 3px solid black;
-    padding-bottom: 10px;
+    padding-bottom: 0px;
 }
 .team-logo {
     display: flex;
@@ -598,23 +610,23 @@ th, td {
     gap: 10px;
 }
 .team-logo img {
-    width: 50px;
+    width: 40px;
 }
 .team-name {
     background-color:rgb(92, 225, 230);
     padding: 5px 20px;
-    font-size: 24px;
+    font-size: 14px;
     font-weight: 800;
-line-height: 27px;
+line-height: 14px;
     border-radius: 5px;
 }
 .total-team-points{
     margin-bottom: 0px;
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 600;
 }
 .team-points {
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 800;
     color:rgb(51, 184, 255);
 }
@@ -623,7 +635,7 @@ line-height: 27px;
     background-color: #fff;
 }
 .rank-badge img {
-    width: 80px;
+    width: 60px;
 }
 .team-members {
     display: flex;
@@ -637,9 +649,9 @@ line-height: 27px;
     text-align: center;
 }
 .member img {
-    min-height: 112px;
+    min-height: 100px;
     object-fit: cover;
-    width: 80px;
+    width: 70px;
 }
 .rank-tag {
     font-size: 12px;
@@ -662,7 +674,7 @@ line-height: 27px;
 .member-info {
     background-color: black;
     color: white;
-    font-size: 14px;
+    font-size: 10px;
     font-weight: 500;
     padding: 5px;
     border-radius: 5px;
@@ -670,7 +682,7 @@ line-height: 27px;
 }
 
 .leaderboard-card {
-    min-height: 489px;
+    min-height: 428px;
     width: 100%;
     background-color: white;
     padding: 10px;
@@ -691,7 +703,7 @@ line-height: 27px;
     text-align: left;
 }
 .rank-image {
-    width: 50px !important;
+    width: 40px !important;
     height: auto !important;
     margin-right: 10px;
 }
@@ -710,7 +722,7 @@ line-height: 27px;
 }
 .title_rank{
     text-align: center;
-    font-size: 24px;
+    font-size: 16px;
     margin-bottom: 0px;
     font-weight: 500;
 }
@@ -761,17 +773,18 @@ line-height: 27px;
     gap: 15px;
 }
 .team-logo {
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 .vs img {
     height: auto;
-    width: 60px;
+    width: 40px;
 }
 .rank-logo {
-    width: 30px;
+    width: 20px;
+    height: auto;
     position: relative;
-    top: -105px;
+    top: -80px;
 }
 .match-score {
     display: flex;
@@ -789,12 +802,18 @@ line-height: 27px;
     border-radius: 5px;
 }
 .match-time {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bold;
     margin-top: 10px;
 }
 
 @media only screen and (max-width:750px){
+    #main-row{
+        padding: 0px 10px;
+    }
+    #games-header-section{
+        flex-wrap: wrap;
+    }
     .row>*{
         padding-left: 1.5rem !important;
     }    
@@ -838,3 +857,111 @@ justify-content: center;
 .row>* {
     padding-left: 0px !important;
 }
+      .circular-progress {
+          
+            position: relative;
+        }
+
+        .circular-progress svg {
+            transform: rotate(-90deg);
+        }
+
+        .circular-progress circle {
+            fill: none;
+            stroke-width: 8;
+            stroke-linecap: round;
+        }
+
+        .circular-progress .bg {
+            stroke: #c4e7e7;
+        }
+
+        .circular-progress .progress {
+            stroke: #28c4da;
+            stroke-dasharray: 125.6;
+            stroke-dashoffset: 125.6;
+            transition: stroke-dashoffset 0.5s ease;
+        }
+
+        .circular-progress span {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .circular-progress {
+            width: 60px;
+            height: 60px;
+        }
+        .circle {
+            r: 25; /* Increased from 20 */
+            stroke-width: 9; /* Increased from 8 */
+        }
+        .circular-progress svg {
+            width: 60px;
+            height: 60px;
+        }
+        /* Semi-Circle Progress */
+        .semi-circle {
+            width: 96px;
+            height: 48px;
+            position: relative;
+        }
+        .progress {
+            stroke-dasharray: 188;
+            stroke-dashoffset: 188;
+        }
+        .semi-circle svg {
+            width: 100%;
+            height: 100%;
+            transform: rotate(0deg);
+        }
+
+        .semi-circle path {
+            fill: none;
+            stroke-width: 12;
+            stroke-linecap: round;
+        }
+
+        .semi-circle .bg {
+            stroke: #c4e7e7;
+        }
+
+        .semi-circle .progress {
+            stroke: #28c4da;
+            stroke-dasharray: 157;
+            stroke-dashoffset: 157;
+            transition: stroke-dashoffset 0.5s ease;
+        }
+
+        .semi-circle span {
+            position: absolute;
+            top:100%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 14px;
+            font-weight: bold;
+        }
+        #progress-title{
+            background-color: rgb(245, 2, 2);
+            width: fit-content;
+            padding: 3px;
+            border-radius: 4px;
+        }
+        #learning-style-title , .team-name{
+            background-color: rgb(245, 2, 2);
+
+        }
+        .org-card p{
+            font-size: 12px;
+        }
+        .leaderboard-title{
+            font-size: 24px;
+            font-weight: 700;
+        }
+        #league-rank-section{
+            justify-content: center;
+        }
+      
